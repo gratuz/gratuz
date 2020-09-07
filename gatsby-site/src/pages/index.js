@@ -7,7 +7,7 @@ export default function Home() {
       <Header />
       <div class="container">
         <h2>The Future of Gas Stations</h2>
-        <p>Some text</p>
+        <p>Some new text</p>
       </div>
 </div>)
 }
