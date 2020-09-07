@@ -1,13 +1,13 @@
 import React from "react"
 
 import Header from "../components/header"
+import TheFutureOfGasStations from "../posts/TheFutureOfGasStations"
 
 export default function Home() {
   return (<div>    
       <Header />
       <div class="container">
-        <h2>The Future of Gas Stations</h2>
-        <p>Some new text</p>
+        <TheFutureOfGasStations />
       </div>
 </div>)
 }
