@@ -32,9 +32,6 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
-	<!-- Stlye Mods -->
-	<link rel="stylesheet" href="css/mods.css">
-
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -44,14 +41,42 @@
 
 	</head>
 	<body>
-	<div class="fh5co-loader"></div>	
-	<div id="page">		
-	<!--#include virtual="ssi/header.ssi" -->		
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="top-menu">
+				<div class="row">
+					<div class="col-sm-2">
+						<div id="fh5co-logo"><a href="index.html">45 Days<span>.</span></a></div>
+					</div>
+					<div class="col-sm-10 text-right menu-1">
+						<ul>
+							<li class="active"><a href="index.html">Topics</a></li>
+							<li><a href="single.html">Single</a></li>
+							<li class="has-dropdown"><a href="single.html">Dropdown</a>
+								<ul class="dropdown">
+									<li><a href="#">Technology</a></li>
+									<li><a href="#">Society</a></li>
+									<li><a href="#">Environmental</a></li>
+									<li><a href="#">Philosophy</a></li>
+								</ul>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</nav>
 	<div class="container">
 		<div id="fh5co-intro">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 col-md-pull-2">
-					<h2>I should say something interesting.</h2>
+					<h2>Hello, World!</h2>
 				</div>
 			</div>
 		</div>
@@ -64,8 +89,11 @@
 			   			<div class="row">
 				   			<div class="col-md-6 col-xs-8 col-md-offset-1 slider-text">
 				   				<div class="slider-text-inner">
-				   					<h1><a href="#">The Future of Gas Stations</a></h1>
-										<h2>Gas Stations have been in decline since the 90s, but the next 10 years will see an even more drastic shift as climate change and global polices are encouraging the reduction of fossil fuels.</h2>
+				   					<h1><a href="#">Topics</a></h1>
+										<h2>Every 45 Days we switch topics to dive deep into a particular area of research focus.</h2>
+										<ul>
+											<li>Topic 1: The future of gas stations</li>
+										</ul>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -77,8 +105,8 @@
 			   			<div class="row">
 				   			<div class="col-md-6 col-xs-8 col-md-offset-1 slider-text">
 				   				<div class="slider-text-inner">
-				   					<h1><a href="#">Second Topic</a></h1>
-										<h2>TBD</h2>
+				   					<h1><a href="#">Innter tex</a></h1>
+										<h2>Subtitle</h2>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -90,8 +118,8 @@
 			   			<div class="row">
 				   			<div class="col-md-6 col-xs-8 col-md-offset-1 slider-text">
 				   				<div class="slider-text-inner">
-				   					<h1><a href="#">Third Topic</a></h1>
-										<h2>TBD</h2>
+				   					<h1><a href="#">More</a></h1>
+										<h2>More...</h2>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -103,8 +131,8 @@
 			   			<div class="row">
 				   			<div class="col-md-6 col-xs-8 col-md-offset-1 slider-text">
 				   				<div class="slider-text-inner">
-				   					<h1><a href="#">Forth Topic</a></h1>
-										<h2>TBD</h2>
+				   					<h1><a href="#">Something else</a></h1>
+										<h2>Else...</h2>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -113,7 +141,6 @@
 			  	</ul>
 		  	</div>
 		</aside>
-		<!--
 		<div id="fh5co-portfolio">
 			<div class="row nopadding">
 				<div class="col-md-6 padding-right">
@@ -193,21 +220,22 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	-->
-	<!-- END container -->
+	</div><!-- END container -->
 
 	<div class="container">
 		<footer id="fh5co-footer" role="contentinfo">
 			<div class="row">
 				<div class="col-md-3 fh5co-widget">
-					<h4>About 45 Days</h4>
-					<p>45 Day Deep dives into various topics. The goal is to imagine a future 5,10, 20 years from now and backtrace to the present to understand the supporting conditions, market impacts, and potential investment opportunities.</p>
+					<h4>About Carbon</h4>
+					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
 				</div>
 				<div class="col-md-3 col-md-push-1">
-					<h4>Latest Research</h4>
+					<h4>Latest Projects</h4>
 					<ul class="fh5co-footer-links">
-						<li><a href="#">The Future of Gas Stations</a></li>
+						<li><a href="#">JBC Stadium</a></li>
+						<li><a href="#">T-Mobile Arena</a></li>
+						<li><a href="#">Target Field</a></li>
+						<li><a href="#">London Stadium</a></li>
 					</ul>
 				</div>
 
@@ -215,14 +243,20 @@
 					<h4>Links</h4>
 					<ul class="fh5co-footer-links">
 						<li><a href="#">Home</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#">Work</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">About us</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-3">
 					<h4>Contact Information</h4>
 					<ul class="fh5co-footer-links">
-						<li>@gratuz</li>
+						<li>198 West 21th Street, <br> Suite 721 New York NY 10016</li>
+						<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
+						<li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
+						<li><a href="http://gettemplates.co">gettemplates.co</a></li>
 					</ul>
 				</div>
 
@@ -231,12 +265,15 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2020 45 Days. All Rights Reserved.</small> 
+						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
+						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
 							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
 							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
 						</ul>
 					</p>
 				</div>
